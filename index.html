@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luiz Felipe | Dev Web &amp; Analista de Dados</title>
+  <meta name="description" content="Portfólio de Luiz Pierre — Desenvolvedor Full Stack Web, Especialista em E-commerce, Funis de Conversão e Analista de Dados &amp; BI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand-logo" aria-label="Luiz Pierre Início">
+        <span class="logo-dot"></span>
+        <span>Luiz Felipe</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="#quem-sou">Quem sou</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#dados-bi">Dados &amp; BI</a>
+        <a href="#servicos">Serviços</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="palette-dots" aria-hidden="true" title="Identidade Visual do Portfólio">
+          <span class="swatch swatch-cream"></span>
+          <span class="swatch swatch-teal"></span>
+          <span class="swatch swatch-espresso"></span>
+          <span class="swatch swatch-black"></span>
+        </div>
+        <a href="#contato" class="btn-pill btn-espresso">Falar comigo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 00. HERO SECTION (Inspirado na Página 1 do Brand PDF) -->
+    <section id="inicio" class="hero-section container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow-tag">
+            <span class="status-pulse"></span>
+            Disponível para novos projetos &amp; consultorias
+          </div>
+
+          <h1 class="hero-name">
+            Luiz<br />
+            Felipe
+          </h1>
+
+          <div class="hero-role-block">
+            <h2 class="hero-subtitle">Portfólio</h2>
+            <p class="hero-role">DEV WEB FULL STACK E ANALISTA DE DADOS</p>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projetos" class="btn-pill btn-teal">
+              Explorar Projetos
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#dados-bi" class="btn-pill btn-outline">Ver Dashboards &amp; BI</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Paleta de 4 círculos exatamente como no topo do card do Brand PDF -->
+          <div class="hero-palette-bar" aria-hidden="true">
+            <span class="swatch swatch-cream"></span>
+            <span class="swatch swatch-teal"></span>
+            <span class="swatch swatch-espresso"></span>
+            <span class="swatch swatch-black"></span>
+          </div>
+
+          <div class="hero-portrait-card">
+            <!-- Recorte lateral com os 4 círculos conectados (scallop notch) do PDF -->
+            <div class="scallop-notch" aria-hidden="true">
+              <div class="scallop-dots">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+
+            <!-- Selo Asterisco Espresso na direita do card -->
+            <div class="asterisk-badge" aria-hidden="true">
+              <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round">
+                <line x1="16" y1="4" x2="16" y2="28" />
+                <line x1="4" y1="16" x2="28" y2="16" />
+                <line x1="7.5" y1="7.5" x2="24.5" y2="24.5" />
+                <line x1="24.5" y1="7.5" x2="7.5" y2="24.5" />
+              </svg>
+            </div>
+
+            <!-- Composição visual arquitetural de código + dados -->
+            <div class="portrait-visual-stage">
+              <div class="stage-topbar">
+                
+                <span class="stage-year">2026</span>
+              </div>
+
+              <div class="stage-avatar-monogram" id="heroPhotoFrame">
+                <div class="avatar-clip">
+                  <img
+                    src="images/perfil.jpeg"
+                    alt="Foto de Luiz Felipe"
+                    class="hero-avatar-img"
+                    fetchpriority="high"
+                    onerror="this.hidden = true"
+                  />
+                  <div class="avatar-fallback" aria-hidden="true">
+                    <span class="monogram-letters">LF</span>
+                    <span class="avatar-hint">images/luiz-felipe.jpg</span>
+                  </div>
+                </div>
+                <div class="monogram-orbit"></div>
+              </div>
+
+              <div class="stage-metrics-grid">
+                <div class="mini-metric">
+                  <span class="mini-label">Arquitetura Web</span>
+                  <strong>Next.js · React · JS</strong>
+                </div>
+                <div class="mini-metric">
+                  <span class="mini-label">Data &amp; BI</span>
+                  <strong>Power BI · Python · SQL</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pílula inferior azul petróleo com rubrica/assinatura estilizada como no PDF -->
+            <div class="signature-pill" aria-hidden="true">
+              <svg viewBox="0 0 140 34" width="115" height="28" fill="none">
+                <path d="M8 24 C16 8, 22 8, 20 24 C19 28, 29 14, 35 16 C40 18, 36 25, 44 22 C52 19, 58 9, 63 21 C67 28, 76 11, 84 16 C92 21, 96 25, 106 14 C113 7, 118 23, 132 15" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01. QUEM SOU EU (Inspirado na Página 2 do Brand PDF) -->
+    <section id="quem-sou" class="section-block container reveal-on-scroll">
+
+      <div class="about-top-grid">
+        <h2 class="section-display-title">
+          Quem<br />
+          sou eu
+        </h2>
+
+        <div class="about-bio-text">
+          <p>
+            <strong>Desenvolvedor Full Web Stack e Analista de Dados</strong> com experiência na criação de plataformas web completas, e-commerces de alta conversão, sistemas integrados com banco de dados em tempo real e painéis executivos de Business Intelligence.
+          </p>
+          <p>
+            Habilidade em transformar regras de negócio complexas em layouts criativos, rápidos e orientados por métricas unindo engenharia de software moderna (<strong>Next.js, React, TypeScript, Supabase, HTML/CSS/JS</strong>) com inteligência analítica (<strong>Power BI, Python e Modelagem Dimensional</strong>).
+          </p>
+        </div>
+      </div>
+
+      <!-- 3 Colunas de Cards Verticais Arredondados com Pílulas Flutuantes na Borda Direita -->
+      <div class="pillars-trio">
+        <article class="pillar-card">
+          <div class="pillar-artwork artwork-web">
+            <div class="artwork-window">
+              <div class="window-dots"><span></span><span></span><span></span></div>
+              <div class="window-code">
+                <code>const app = createPlatform({</code>
+                <code>  stack: ['Next.js', 'Supabase'],</code>
+                <code>  performance: '99/100',</code>
+                <code>  ux: 'Editorial &amp; Clean'</code>
+                <code>});</code>
+              </div>
+              <div class="artwork-badge-row">
+                <span>Full Stack</span>
+                <span>SSR / Edge</span>
+                <span>UI/UX</span>
+              </div>
+            </div>
+          </div>
+          <span class="floating-pill pill-cream">Sistemas &amp; E-commerce</span>
+        </article>
+
+        <article class="pillar-card">
+          <div class="pillar-artwork artwork-cro">
+            <div class="funnel-diagram">
+              <div class="funnel-step step-1">
+                <span>Tráfego &amp; Landing Page</span>
+                <strong>100%</strong>
+              </div>
+              <div class="funnel-step step-2">
+                <span>Quiz Interativo &amp; Diagnóstico</span>
+                <strong>68%</strong>
+              </div>
+              <div class="funnel-step step-3">
+                <span>Checkout &amp; Retenção</span>
+                <strong>+3.4x ROI</strong>
+              </div>
+            </div>
+          </div>
+          <span class="floating-pill pill-espresso">Layouts &amp; Conversão</span>
+        </article>
+
+        <article class="pillar-card">
+          <div class="pillar-artwork artwork-data">
+            <div class="chart-preview">
+              <div class="chart-bars">
+                <span style="height: 42%"></span>
+                <span style="height: 65%"></span>
+                <span style="height: 54%"></span>
+                <span style="height: 86%"></span>
+                <span style="height: 100%" class="bar-highlight"></span>
+              </div>
+              <div class="chart-caption">
+                <span>Star Schema · ETL · DAX</span>
+                <strong>Power BI &amp; Python</strong>
+              </div>
+            </div>
+          </div>
+          <span class="floating-pill pill-teal">Inteligência de Dados</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- 02. PROJETOS EM DESTAQUE (Vitrine dos projetos reais do workspace) -->
+    <section id="projetos" class="section-block container reveal-on-scroll">
+      <div class="section-header-row">
+        <div>
+          <h2 class="section-display-title">Projetos</h2>
+        </div>
+
+        <!-- Filtros com View Transitions -->
+        <div class="filter-bar" role="tablist" aria-label="Filtrar projetos por categoria">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos (6)</button>
+          <button type="button" class="filter-btn" data-filter="web" role="tab" aria-selected="false">Sistemas &amp; E-commerce</button>
+          <button type="button" class="filter-btn" data-filter="cro" role="tab" aria-selected="false">Landing Pages &amp; CRO</button>
+          <button type="button" class="filter-btn" data-filter="data" role="tab" aria-selected="false">Dados &amp; BI</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- 1. Decorlines -->
+        <article class="project-card" data-category="web" style="view-transition-name: proj-decorlines">
+          <div class="project-visual theme-espresso">
+            <img src="images/projects/decorlines.png" alt="Preview do projeto Decorlines" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">E-commerce Full Stack</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">DECORLINES // LOJA</div>
+              <div class="mockup-title">Objetos &amp; Decorações</div>
+              <div class="mockup-pills">
+                <span>Calculadora de Medidas</span>
+                <span>Checkout Integrado</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Supabase</span>
+              <span>Tailwind</span>
+            </div>
+            <h3 class="project-title">Decorlines — Loja Virtual &amp; Catálogo</h3>
+            <p class="project-excerpt">
+              Plataforma completa de e-commerce para decoração e cortinas com catálogo dinâmico, banco de dados no Supabase e experiência de compra personalizada.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="decorlines">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="decorlines"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Projeto Lidprime -->
+        <article class="project-card" data-category="cro" style="view-transition-name: proj-lidprime">
+          <div class="project-visual theme-teal">
+            <img src="images/projects/lidprime.png" alt="Preview do projeto Lidprime" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">SaaS / Funil Quiz &amp; CRO</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">LIDPRIME // GROWTH</div>
+              <div class="mockup-title">Funil Interativo &amp; Diagnóstico de Conversão</div>
+              <div class="mockup-pills">
+                <span>Quiz Qualificador</span>
+                <span>Análise CRO</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>Next.js</span>
+              <span>Supabase</span>
+              <span>CRO Analytics</span>
+              <span>Quiz Engine</span>
+            </div>
+            <h3 class="project-title">Lidprime — Funil Quiz &amp; Otimização CRO</h3>
+            <p class="project-excerpt">
+              Aplicação Next.js combinada com relatórios de engenharia de conversão (CRO) e quiz interativo para qualificação e captura de leads de alta intenção.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="lidprime">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="lidprime"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Igreja do Alto -->
+        <article class="project-card" data-category="web" style="view-transition-name: proj-igreja">
+          <div class="project-visual theme-cream">
+            <img src="images/projects/igreja-do-alto.png" alt="Preview do projeto Igreja do Alto" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">Portal Digital &amp; Brand</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">IGREJA DO ALTO</div>
+              <div class="mockup-title">Plataforma Institucional, Eventos &amp; Comunidade</div>
+              <div class="mockup-pills">
+                <span>Identidade Visual</span>
+                <span>Portal Web</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>Next.js</span>
+              <span>Supabase</span>
+              <span>Design System</span>
+              <span>Brand Manual</span>
+            </div>
+            <h3 class="project-title">Igreja do Alto — Ecossistema Web &amp; Identidade</h3>
+            <p class="project-excerpt">
+              Desenvolvimento da plataforma digital e aplicação rigorosa do manual de marca, conectando agenda, conteúdos e gestão em tempo real via Supabase.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="igreja">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="igreja"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Sportlines -->
+        <article class="project-card" data-category="web" style="view-transition-name: proj-sportlines">
+          <div class="project-visual theme-dark">
+            <img src="images/projects/sportlines.png" alt="Preview do projeto Sportlines" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">Front-End &amp; Identidade</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">SPORTLINES</div>
+              <div class="mockup-title">Vitrine Esportiva de Alta Performance</div>
+              <div class="mockup-pills">
+                <span>HTML5 / CSS3</span>
+                <span>SVG Vetorial</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>HTML5</span>
+              <span>CSS3 Moderno</span>
+              <span>JavaScript</span>
+              <span>UI Esportiva</span>
+            </div>
+            <h3 class="project-title">Sportlines — Vitrine Digital &amp; Branding</h3>
+            <p class="project-excerpt">
+              Interface web responsiva e energética criada em HTML/CSS/JS puro para apresentação de linha esportiva, com foco em velocidade de carregamento e impacto visual.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="sportlines">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="sportlines"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Quero Doce C&A & Camilla -->
+        <article class="project-card" data-category="cro" style="view-transition-name: proj-querodoce">
+          <div class="project-visual theme-espresso">
+            <img src="images/projects/quero-doce.png" alt="Preview do projeto Quero Doce C&A" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">Gastronomia &amp; Marca</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">QUERO DOCE C&amp;A · CAMILLA</div>
+              <div class="mockup-title">Cardápio Digital &amp; Identidade Visual</div>
+              <div class="mockup-pills">
+                <span>Landing Page</span>
+                <span>Design de Marca</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>HTML5 / CSS3</span>
+              <span>Branding</span>
+              <span>Catálogo Mobile</span>
+              <span>UX Conversão</span>
+            </div>
+            <h3 class="project-title">Quero Doce C&amp;A / Camilla — Vitrine &amp; Marca</h3>
+            <p class="project-excerpt">
+              Experiência digital pensada para confeitaria artesanal e marca pessoal, integrando direção de arte, logotipia e página focada em pedidos rápidos pelo celular.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="querodoce">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="querodoce"></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. BI & Engenharia de Dados
+        <article class="project-card" data-category="data" style="view-transition-name: proj-bi">
+          <div class="project-visual theme-teal">
+            <img src="images/projects/dashboards-bi.png" alt="Preview dos Dashboards Power BI" class="project-cover-img" loading="lazy" onerror="this.hidden = true" />
+            <div class="project-top-meta">
+              <span class="project-tag">Business Intelligence</span>
+              <span class="project-year">2026</span>
+            </div>
+            <div class="project-mockup">
+              <div class="mockup-header">POWER BI + PYTHON</div>
+              <div class="mockup-title">Star Schema, Vendas, Imobiliária &amp; TG</div>
+              <div class="mockup-pills">
+                <span>Modelagem Dimensional</span>
+                <span>ETL Python</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-stack-list">
+              <span>Power BI (.pbix)</span>
+              <span>Python</span>
+              <span>DAX</span>
+              <span>Star Schema</span>
+            </div>
+            <h3 class="project-title">Suíte de Dashboards &amp; BI (Vendas, Finanças e TG)</h3>
+            <p class="project-excerpt">
+              Conjunto de soluções analíticas com tabelas Fato/Dimensão (`fVendas`, `fCompras`, `dProduto`), controle de Despesas Mensais e pesquisa aplicada em BI &amp; Gestão do Conhecimento.
+            </p>
+            <div class="project-footer">
+              <button type="button" class="btn-case-study" data-project="bi">
+                Ver estudo de caso
+                <span aria-hidden="true">→</span>
+              </button>
+              <div class="project-links" data-project-links="bi"></div>
+            </div>
+          </div>
+        </article>
+      </div>-->
+    </section> 
+
+    <!-- 03. DADOS & BI SHOWCASE (Diferencial Analítico) -->
+    <section id="dados-bi" class="section-block container reveal-on-scroll">
+      <div class="bi-showcase-banner">
+        <div class="bi-copy">
+          <div class="section-index section-index-light">ENGENHARIA &amp; ANÁLISE DE DADOS</div>
+          <h2 class="bi-title">Do banco de dados bruto à tomada de decisão executiva.</h2>
+          <p class="bi-description">
+            Além de construir a interface e o back-end das aplicações, estruturo pipelines em <strong>Python</strong> e modelos dimensionais (<em>Star Schema</em>) no <strong>Power BI</strong> para transformar eventos de vendas, estoque e tráfego em indicadores acionáveis.
+          </p>
+
+          <div class="bi-pills-row">
+            <div class="bi-stat-pill">
+              <strong>Star Schema</strong>
+              <span>fVendas · fCompras · dProduto · dFornecedor</span>
+            </div>
+            <div class="bi-stat-pill">
+              <strong>Power BI &amp; DAX</strong>
+              <span>Dashboards Financeiros, Imobiliários &amp; TG</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bi-interactive-card" aria-label="Demonstração de Arquitetura de Dados">
+          <div class="schema-header">
+            <span class="schema-title">Arquitetura Dimensional // dados.py → Power BI</span>
+            <span class="schema-badge">ETL Ativo</span>
+          </div>
+          <div class="schema-nodes">
+            <div class="schema-dim">dProduto</div>
+            <div class="schema-dim">dFornecedor</div>
+            <div class="schema-dim">dFormaPagamento</div>
+          </div>
+          <div class="schema-connector" aria-hidden="true">↓ Relações 1:N (Integridade Referencial) ↓</div>
+          <div class="schema-facts">
+            <div class="schema-fact">
+              <span>Tabela Fato</span>
+              <strong>fVendas</strong>
+              <small>Receita, Margem, Ticket Médio</small>
+            </div>
+            <div class="schema-fact">
+              <span>Tabela Fato</span>
+              <strong>fCompras</strong>
+              <small>Custo de Aquisição, Giro, Lead Time</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04. SERVIÇOS (Inspirado fielmente na Página 3 do Brand PDF) -->
+    <section id="servicos" class="section-block container reveal-on-scroll">
+
+      <div class="services-bento-grid">
+        <!-- Grande Card Marrom Café da esquerda com 3 blocos escalonados em cascata -->
+        <div class="services-left-panel">
+          <h2 class="services-panel-title">Serviços</h2>
+
+          <div class="staggered-service-cards">
+            <div class="service-step-card step-teal">
+              <h3>Desenvolvimento<br />Web &amp; Sistemas</h3>
+              <p>E-commerces, aplicações Full Stack em Next.js/Supabase e sites institucionais rápidos.</p>
+            </div>
+
+            <div class="service-step-card step-taupe">
+              <h3>Dashboards de BI<br />&amp; Análise de Dados</h3>
+              <p>Modelagem Star Schema, automação em Python e painéis interativos no Power BI.</p>
+            </div>
+
+            <div class="service-step-card step-white">
+              <h3>Funis de Conversão,<br />CRO &amp; Identidade</h3>
+              <p>Quizzes qualificadores, landing pages de alta conversão e sistemas visuais completos.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mosaico direito com 1 card horizontal superior e 2 cards quadrados inferiores (como na pág. 3 do PDF) -->
+        <div class="services-right-mosaic">
+          <div class="mosaic-top-card">
+            <div class="abstract-mesh" aria-hidden="true">
+              <div class="mesh-shard shard-1"></div>
+              <div class="mesh-shard shard-2"></div>
+              <div class="mesh-shard shard-3"></div>
+            </div>
+            <div class="mosaic-overlay-content">
+              <span class="mosaic-kicker">Performance &amp; Escala</span>
+              <h3>Arquitetura moderna que une estética editorial, código limpo e inteligência de negócio.</h3>
+            </div>
+          </div>
+
+          <div class="mosaic-bottom-row">
+            <div class="mosaic-square-card card-devices">
+              <div class="device-mockup-illustration" aria-hidden="true">
+                <div class="phone-frame">
+                  <span></span>
+                  <div class="phone-ui-line"></div>
+                  <div class="phone-ui-block"></div>
+                </div>
+                <div class="tablet-frame">
+                  <div class="tablet-chart"></div>
+                </div>
+              </div>
+              <div class="square-card-footer">
+                <strong>Responsividade Total</strong>
+                <span>Mobile-first, fluido em qualquer tela</span>
+              </div>
+            </div>
+
+            <div class="mosaic-square-card card-code">
+              <div class="keyboard-craft-box" aria-hidden="true">
+                <div class="keycap-row">
+                  <span>TS</span><span>PY</span><span>SQL</span><span>BI</span>
+                </div>
+                <div class="keycap-row">
+                  <span>NEXT</span><span>HTML</span><span>CSS</span>
+                </div>
+              </div>
+              <div class="square-card-footer">
+                <strong>Código &amp; Dados</strong>
+                <span>Entrega ponta a ponta documentada</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. CONTATO / RODAPÉ -->
+    <section id="contato" class="section-block container reveal-on-scroll">
+      <div class="contact-card">
+        <div class="contact-left">
+          <div class="section-index">VAMOS CONVERSAR?</div>
+          <h2 class="contact-heading">Tem um projeto web ou desafio de dados em mente?</h2>
+          <p class="contact-sub">
+            Estou disponível para desenvolvimento de plataformas web, estruturação de funis de conversão e implementação de painéis de Business Intelligence.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a href="mailto:lfpierre.carvalho@gmail.com" class="btn-pill btn-teal btn-large">
+            Enviar E-mail
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <div class="social-links-row">
+            <a href="https://github.com/Lf-PierreC" target="_blank" rel="noopener noreferrer" class="social-pill">GitHub</a>
+            <a href="https://www.linkedin.com/in/luiz-pierre-54796a22a/" target="_blank" rel="noopener noreferrer" class="social-pill">LinkedIn</a>
+            <button type="button" class="social-pill" id="copyEmailBtn" data-email="lfpierre.carvalho@gmail.com">lfpierre.carvalho@gmail.com</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© 2026 Luiz Pierre · Desenvolvedor Web &amp; Analista de Dados.</p>
+    <div class="palette-dots" aria-hidden="true">
+      <span class="swatch swatch-cream"></span>
+      <span class="swatch swatch-teal"></span>
+      <span class="swatch swatch-espresso"></span>
+      <span class="swatch swatch-black"></span>
+    </div>
+  </footer>
+
+  <!-- Modal Nativo com Light Dismiss (closedby="any") para Estudo de Caso detalhado -->
+  <dialog id="projectDialog" closedby="any" aria-labelledby="dialogProjectTitle" class="case-dialog">
+    <div class="dialog-inner">
+      <div class="dialog-topbar">
+        <span id="dialogProjectCategory" class="dialog-category-pill">Categoria</span>
+        <form method="dialog">
+          <button type="submit" class="dialog-close-btn" aria-label="Fechar detalhes do projeto">✕</button>
+        </form>
+      </div>
+
+      <h2 id="dialogProjectTitle" class="dialog-title">Título do Projeto</h2>
+      <p id="dialogProjectSubtitle" class="dialog-subtitle"></p>
+
+      <div class="dialog-highlights-grid">
+        <div class="dialog-box">
+          <h3>O Desafio</h3>
+          <p id="dialogChallenge"></p>
+        </div>
+        <div class="dialog-box">
+          <h3>Solução &amp; Arquitetura</h3>
+          <p id="dialogSolution"></p>
+        </div>
+      </div>
+
+      <div class="dialog-deliverables">
+        <h3>Principais Entregas Técnicas</h3>
+        <ul id="dialogDeliverablesList"></ul>
+      </div>
+
+      <div class="dialog-footer">
+        <div id="dialogTechTags" class="project-stack-list"></div>
+        <div class="dialog-footer-actions">
+          <div id="dialogLinks" class="dialog-links"></div>
+          <form method="dialog">
+            <button type="submit" class="btn-pill btn-espresso">Fechar Estudo de Caso</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
